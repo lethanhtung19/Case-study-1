@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      body {
+        margin: auto;
+        font-family: sans-serif;
+        width: 885px;
+      }
+      h1 {
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 70px;
+      }
+
+      ul {
+        list-style: none;
+        font-size: 20px;
+        line-height: 3;
+        padding-left: 0px;
+      }
+      .container {
+        border: 10px solid black;
+        padding-left: 20px;
+        background-color: rgb(225, 225, 225);
+      }
+      .img-container::after {
+        content: "Chân dung";
+        margin-top: 0px;
+        position: absolute;
+        bottom: -15px;
+        left: 85px;
+        font-size: 17px;
+        text-align: center;
+        font-style: italic;
+      }
+      .img-container {
+        position: relative;
+      }
+      .img {
+        width: 250px;
+        height: auto;
+      }
+
+      .mail-address {
+        text-decoration: underline;
+        font-style: italic;
+        display: inline;
+      }
+      .contact {
+        float: left;
+      }
+      .exp-info {
+        float: right;
+        margin-right: 20px;
+      }
+      .fix::after {
+        clear: both;
+        content: "";
+        display: block;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+      <h1>CV cá nhân</h1>
+      <div class="img-container">
+        <img
+          class="img"
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThiTBhs-6aZZrLEiDEorvR0Jx8JQ9FzsLV5Q&usqp=CAU"
+          alt="ảnh"
+        />
+      </div>
+      <ul class="fix">
+        <div class="contact">
+          <li><b>Họ và tên: </b>Lê Thanh Tùng</li>
+          <li><b>Địa chỉ: </b>Hà Nội</li>
+          <li><b>Số điện thoại: </b>0868xxxxx</li>
+          <li>
+            <b>Email:</b>
+            <p class="mail-address">lethanhtung19@gmail.com</p>
+          </li>
+        </div>
+        <div class="exp-info">
+          <li><b>Học vấn: </b>Đại học</li>
+          <li><b>Bằng cấp: </b>Cử nhân toán tin</li>
+          <li><b>Kỹ năng: </b>Lập trình</li>
+          <li><b>Kinh nghiệm: </b>0 năm</li>
+          <li><b>Định hướng phát triển: </b>Lập trình viên</li>
+        </div>
+      </ul>
+    </div>
+  </body>
+</html>
