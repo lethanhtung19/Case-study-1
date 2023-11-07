@@ -1,43 +1,40 @@
+<!-- @format -->
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-
-    
-    
+    <title>Market Research Survey</title>
   </head>
   <body>
     <header class="main-header">
-     
+      <h1>Market Reseach Survey</h1>
+      <p>Please take a few moments to complete this satisfaction survey</p>
     </header>
-    <form action=""></form>
 
-  
-    <div>
-      <ul>
-      <li> <label for="age"><b>What is your age range?</b></label></li>
-      <li><select name="" id="age">
-        <option value="">18-24</option>
-        <option value="">25-34</option>
-        <option value="">35-50</option>
-        <option value="">50+</option>
-      </select></li>
-     </div>
+    <article>
+      <form action="">
       <div>
-        <ul>
-          <li><label for="income"><b>What is your yearly income range?</b></label></li>
-          <li><select name="" id="income">
+        <label for="age"><b>What is your age range?</b></label>
+        <select name="" id="age">
+          <option value="">18-24</option>
+          <option value="">25-34</option>
+          <option value="">35-50</option>
+          <option value="">50+</option>
+        </select>
+      </div>
+
+      <div>
+        <label for="income"><b>What is your yearly income range?</b></label>
+          <select name="" id="income">
             <option value="">0-25000$</option>
             <option value="">25,001-50,000</option>
             <option value="">50,001-100,000</option>
             <option value="">100,001+</option>
-          </select></li>
-        </ul>
-        
-        
+          </select>
       </div>
+
       <div>
         <ul>
           <li><b>Gender Identify</b></li>
@@ -46,28 +43,21 @@
           <li> <input type="radio" name="sex" />Nonbinary</li>
           <li><input type="radio" name="sex" />Other</li>
         </ul> 
-       
-        
-        
-       
-        
       </div>
+
       <div>
         <ul>
           <li>
-            <b
-              >Which of the following product have your purchased in the last 2
-              months. Please check all that apply.</b
-            >
-          ></li>
+            <b>
+              Which of the following product have your purchased in the last 2
+              months. Please check all that apply.</b>
+          </li>
           <li><input type="checkbox" name="products" /> Product 1  </li>
           <li><input type="checkbox" name="products" /> Product 2</li>
           <li><input type="checkbox" name="products" /> Product 3</li>
         </ul>
-        
-        
-        
       </div>
+
       <div>
         <ul>
           <li><b>How often would you use our new product?</b></li>
@@ -75,11 +65,8 @@
           <li><input type="radio" name="freq" />Weekly</li>
           <li><input type="radio" name="freq" />Monthly</li>
         </ul>
-        
-        
-        
-        
       </div>
+
       <div>
         <ul>
           <li><b>What would you pay for the new product?</b></li>
@@ -98,9 +85,8 @@
             </tr>
           </table></li>
         </ul>
-        
-        
       </div>
+
       <div>
         <ul>
           <li><label for="comment" style="vertical-align: top"
@@ -108,9 +94,8 @@
           ></li>
           <li><textarea name="" id="comment" cols="50" rows="10"></textarea></li>
         </ul>
-        
-        
       </div>
+
       <div>
         <ul>
           <li><p>Please rate your level agreement with the following statements.</p></li>
@@ -145,9 +130,8 @@
             </tr>
           </table>
         </div>
-        
-      </ul>        
-      <input type="submit" name="" id=""/>
-    </form>
+        <button type="submit">Submit</button>
+      </form>
+    </article>
   </body>
 </html>
